@@ -39,5 +39,12 @@
                 echo "O valor é menor que 10";
             }
         ?>
+        <?php
+            echo "<br>";
+            echo "O valor minimo é : <br>";
+            echo(min(0, 130,20, -3,-200). "<br>");
+            echo "O valor maximo é : <br>";
+            echo(max(0, 130, 20, -3, -200));
+            ?>
     </body>
 </html>
